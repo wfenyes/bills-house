@@ -1,19 +1,65 @@
-body {
-    background-color: #FFF5E4;
+/* Global */
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
+
+
+
+/* Navigation Items */
 
 .nav-list {
     display: flex;
-    justify-content: flex-end;
-    gap: 20px;
+    justify-content: center;
+    gap: 60px;
     list-style: none;
+    font-size: 35px;
 }
+ /* Hero Space */
 
 .hero-space {
+    display: flex;
     min-height: 300px;
+    max-height: 600px;
     width: 100%;
+    align-items: center;
     /* background-color: lightgray; */
 }
+
+.right-column {
+    flex: 0 0 500px;
+    margin: 20px 50px;
+}
+
+.left-column img {
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    object-position: center;
+    opacity: 50%;
+    border-radius: 50%;
+}
+
+.right-column {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-column h1 {
+    font-size: 50px;
+}
+
+.right-column p {
+    font-size: 20px;
+}
+
+/* Currently Reading and Watching Space */
 
 .current {
     display: flex;
@@ -41,6 +87,8 @@ body {
     width: 500px;
 }
 
+/* Colors */
+
 .orange {
     background-color: #CD5C08;
 }
@@ -51,5 +99,9 @@ body {
 
 .dark-green {
     background-color: #6A9C89;
+}
+
+.tan { 
+    background-color: #FFF5E4;
 }
 
