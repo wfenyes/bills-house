@@ -1,0 +1,55 @@
+body {
+    background-color: #FFF5E4;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+}
+
+.hero-space {
+    min-height: 300px;
+    width: 100%;
+    /* background-color: lightgray; */
+}
+
+.current {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 20px auto;
+}
+
+.section-title {
+    flex-basis: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+}
+
+.card {
+
+    width: 500px;
+    /* margin: 0 auto; */
+}
+
+.card img {
+    height: 500px;
+    width: 500px;
+}
+
+.orange {
+    background-color: #CD5C08;
+}
+
+.light-green {
+    background-color: #C1D8C3;
+}
+
+.dark-green {
+    background-color: #6A9C89;
+}
+
