@@ -22,7 +22,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     min-height: 300px;
-    max-height: 600px;
+    /* max-height: 600px; */
     width: 100%;
     align-items: center;
     /* background-color: lightgray; */
@@ -46,7 +46,7 @@ a {
 }
 
 .right-column {
-    text-align: center;
+    align-items: center;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -58,6 +58,7 @@ a {
 
 .right-column p {
     font-size: 20px;
+    max-width: 700px;
 }
 
 /* Currently Reading and Watching Space */
