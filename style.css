@@ -107,3 +107,35 @@ a {
     background-color: #FFF5E4;
 }
 
+
+/* FAQ Section */
+
+.faq {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.faq-item {
+    background-color: #974343;
+    color: #111;
+    margin:  1rem 0;
+    border-radius: 0.5rem;
+}
+
+.faq-item-header {
+    font-weight: bold;
+}
+
+.faq-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+}
+
+.faq-item-header.active::after {
+    content: "\2212";
+}
+
+
