@@ -1,10 +1,9 @@
+const faqs = document.querySelectorAll(".faq");
 
-
-const faqItemHeaders = document.querySelectorAll(".faq-item-header");
-
-faqItemHeaders.forEach(faqItemHeader => {
-    faqItemHeader.addEventListener('click', event => {
-        faqItemHeader.classList.toggle('active');
-    });
+faqs.forEach(faq => {
+    faq.addEventListener('click', ans => {
+        faq.classList.toggle('active');
+    }); 
 });
+
 
