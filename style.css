@@ -170,5 +170,38 @@ a {
 /* Footer */
 
 footer {
-    min-height: 300px;
+    min-height: 160px;
 }
+
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-container > * {
+    height: 100px;
+}
+
+.foot-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-container p {
+    margin: 0px auto;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+
+
+
