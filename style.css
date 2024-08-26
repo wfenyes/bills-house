@@ -79,12 +79,14 @@ a {
 }
 
 .card {
-
     width: 500px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
+
+
 .card img {
+    object-fit: cover;
     height: 500px;
     width: 500px;
 }
@@ -151,8 +153,6 @@ a {
     transition: max-height 1s ease;
     transition: border;
 }
-
-
 
 .answer p {
     font-size: 20px;
